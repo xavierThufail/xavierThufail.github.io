@@ -1,0 +1,276 @@
+* {
+	margin:0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+header {
+	background-color: rgba(0,0,0,0.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	padding: 5px;
+	width: 100%;
+	z-index: 2;
+}
+
+.logo-navbar {
+	display: flex;
+	width: 20vw;
+	justify-content: center;
+}
+
+nav {
+	width: 60vw;
+}
+
+.navbar ul li {
+	display: inline-block;
+}
+
+.navbar ul li a{
+/*	display: inline-block;*/
+	color: silver;
+	margin: 8px 30px;
+}
+
+.navbar ul li:hover {
+transform: scale(1.2);
+}
+
+.search-navbar {
+	display: flex;
+	justify-content: center;
+	width: 20vw;
+}
+
+#iphone11pro {
+	background-image: url("img/iphone-11-pro.jpg");
+	background-size: cover;
+	background-position: top;
+	width: 100%;
+	height: 100vh;
+	z-index: 1;
+	margin-bottom: 20px; 
+	position: relative;
+}
+
+#iphone11 {
+	background-image: url("img/iphone-11.jpg");
+	background-size: cover;
+	background-position: top;
+	width: 100%;
+	height: 100vh;
+	margin-bottom: 20px; }
+
+#applewatch {
+	background-image: url("img/apple-watch.jpg");
+	background-size: cover;
+	background-position: top;
+	width: 100%;
+	height: 100vh;
+	margin-bottom: 20px;
+}
+
+#applewatch-studio {
+	background-image: url("img/apple-watch-studio.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 50vw;
+	height: 80vh;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+#airpods {
+	background-image: url("img/airpods.png");
+	background-size: contain;
+	background-position: top;
+	width: 50vw;
+	height: 80vh;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+#macbookpro {
+	background-image: url("img/macbookpro.jpeg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	width: 50vw;
+	height: 80vh;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+#ipad {
+	background-image: url("img/ipad.jpg");
+	background-size: cover;
+	background-position: top;
+	width: 50vw;
+	height: 80vh;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+#appletv {
+	background-image: url("img/appletv.jpg");
+	background-size: cover;
+	background-position: left;
+	width: 50vw;
+	height: 80vh;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+#applecard {
+	background-image: url("img/apple-card.png");
+	background-size: cover;
+	background-position: center;
+	width: 50vw;
+	height: 80vh;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+.dua-artikel {
+	display: flex;
+	width: 100%
+}
+
+.isi {
+/*	display: flex;*/
+	color: black;
+/*	align-items: center;
+	text-align: center; 
+*/	padding: 10px;
+	margin-top: 14%;
+}
+
+.isi1 {
+/*	display: flex;*/
+	color: black;
+/*	align-items: center;*/
+	text-align: center; 
+	padding: 10px;
+}
+
+.isi-jajal {
+/*	display: flex;*/
+	color: black;
+/*	align-items: center;*/
+	text-align: center; 
+	position: absolute;
+	padding: 10px;
+}
+
+.beli li {
+	display: inline;
+	margin: 0px 20px;
+}
+
+.beli li a {
+	color: teal;
+}
+
+.beli li:hover {
+	text-decoration: underline;
+}
+
+.beli-jajal {
+	position: absolute;
+}
+
+.beli-jajal li {
+	display: inline;
+	margin: 0px 20px;
+}
+
+.beli-jajal li a {
+	color: teal;
+}
+
+.beli-jajal li:hover {
+	text-decoration: underline;
+}
+
+
+.beli1 {
+	text-align: center;
+}
+
+.beli1 li {
+	display: inline;
+	margin: 0px 20px;
+}
+
+.beli1 li a {
+	color: teal;
+}
+
+.beli1 li:hover {
+	text-decoration: underline;
+}
+
+h2 {
+	font-size: 50px;
+	margin: 10px 0px;
+}
+
+h5 {
+	margin: 10px 0px
+}
+
+.detail {
+	font-size: 20px;
+	margin: 5px 0px;
+}
+
+.detail1 {
+	font-size: 15px;
+	margin: 5px 0px;
+}
+
+.menu-foot li a {
+	color: black;
+	opacity: 0.7;
+	font-size: 14px
+}
+
+.menu-foot li a:hover {
+	text-decoration: underline;
+}
+
+.inline-footer ul li {
+	display: inline-block;
+}
+
+.inline-footer ul li a {
+	color: black;
+	opacity: 0.7;
+	font-size: 14px;
+	margin: 0px 10px;
+}
+
+.inline-footer ul li a:hover {
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+}
+
+span {
+	font-size: 14px;
+	opacity: 0.5;
+}
+
+span a {
+	color: teal;
+}
+
+span a:hover {
+	text-decoration: underline;
+}
+
